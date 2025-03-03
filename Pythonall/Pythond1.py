@@ -50,10 +50,10 @@
 
 
 # 6 Type casting is a process of converting a varaiblr one data type to another data type
-Series_of_text = "Prabesh"
-decimal_value = 28.32
-whole_number = 23
-Truee_Falsee = True
+# Series_of_text = "Prabesh"
+# decimal_value = 28.32
+# whole_number = 23
+# Truee_Falsee = True
 
 # print(type(Series_of_text))
 # print(type(decimal_value))
@@ -64,5 +64,5 @@ Truee_Falsee = True
 # print(whole_number)
 #converting decimal to whole number
 
-Series_of_text = str(whole_number)
-print(Series_of_text)
+# Series_of_text = str(whole_number)
+# print(Series_of_text)
