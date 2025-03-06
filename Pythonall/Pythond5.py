@@ -29,4 +29,38 @@
 # result = name.capitalize() This will capitalize the first letter of the string
 # result = name.upper() This will uppper case the string
 # result = name.lower() This will lower case the string
+# result = name.isalpha() This checks is the string is alphabet or not
+# result = name.isdigit() This will check if the string is digit or not
+# result = phone_number.count("-") THis will count the - in phone number
+# result = phone_number.replace("-"," ") This will replace the - with nothing
 # print(result)
+
+# To know all the methods of strings you need to type
+# help(str) in python
+
+# print(help(str))
+
+
+# Exercise 
+
+# validation of user input 
+# 1 username is no more than 12  chatracters 
+# username must not contain spaces
+# username must not contain digits
+
+# username = input("Enter user name:")
+# username.find(" ")
+
+# len(username)
+# if len(username) > 12:
+#     print("username is too long")
+# elif not username.find(" ") == -1:
+#     print("username shouldnot contain spaces")
+# elif not username.isalpha():
+#     print("Your name must not contain digits")
+# else:
+#     print(f"WELCOME {username}")
+
+
+
+
