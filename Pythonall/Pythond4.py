@@ -22,4 +22,18 @@
 
 
 
+# temp = -1
+# is_sunny = False
+
+# if temp >= 28 and is_sunny:
+#     print("It's a hot sunny day")
+# elif temp <= 0 and is_sunny:
+#     print("It's a nice day")
+
+# if temp >= 28 and not is_sunny:
+#     print("It's a hot sunny day")
+# elif temp <= 0 and not is_sunny:
+#     print("It's a nice day")
+    
+
 
