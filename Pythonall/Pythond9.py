@@ -29,9 +29,22 @@
 # dictionary = unordered collection of items {} unordered and changeable Duplicates ok
 
 
-# fruits = ["Apple","Banana","Watermelon"]
+fruits = ["Apple","Banana","Watermelon"]
 
 # # print(fruits[0])
 
 # for fruits in fruits:
 #     print(fruits)
+# print(fruits)
+fruits.append("rose") # add to the end of the list
+print(fruits)
+print("lily" in fruits) # returns true if the item is in the list, false if not
+print("rose" in fruits) # returns true if the item is in the list, false if not
+print(len(fruits)) # returns the # of items in the list
+print(fruits.count("apple"))
+print(fruits.remove("rose"))
+print(fruits.sort())
+print(fruits.count("Watermelon")) # returns the list in sorted order
+print(fruits.index("Watermelon")) # returns the index of the item in the list
+print(fruits.pop()) # removes the last item in the list and returns it
+print(fruits.clear())
